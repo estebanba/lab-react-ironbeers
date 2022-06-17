@@ -16,7 +16,9 @@ function Home() {
         </Link>
       </div>
       <div className="banner">
-        <h1>New Beer</h1>
+        <Link to={"/newBeer"}>
+          <h1>New Beer</h1>
+        </Link>
       </div>
     </div>
   );
